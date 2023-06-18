@@ -1,0 +1,115 @@
+
+
+.conteudo-principal {
+   max-width: 1366px;
+   margin: 0 auto;
+   padding: 50px 20px;
+}
+
+/* primeira div */
+
+.pag1-info1-container {
+   display: flex;
+   gap: 30px;
+   margin-bottom: 50px;
+   justify-content: start;
+}
+
+@media (max-width: 330px) {
+   .pag1-info1-container {
+      flex-direction: column;
+      gap: 15px;
+   }
+}
+
+
+
+.pag1-info1-img {
+   width: 30%;
+   border-radius: 6px;
+}
+
+@media (max-width: 330px) {
+   .pag1-info1-img {
+      width: 70%;
+      margin: auto;
+   }
+}
+
+
+.pag1-info1-p {
+   font-size: 1.5rem;
+   width: 60ch;
+   color: #252525;
+   text-align: justify;
+}
+
+@media (max-width: 330px) {
+   .pag1-info1-p {
+      font-size: 1.2rem;
+      width: 100%;
+      text-align: left;
+   }
+}
+
+
+
+
+
+
+/* segunda div */
+
+.pag1-info2-container {
+   display: flex;
+   gap: 30px;
+   margin-bottom: 50px;
+   justify-content: space-around;
+}
+
+@media (max-width: 330px) {
+   .pag1-info2-container {
+      flex-direction: column;
+      gap: 15px;
+   }
+}
+
+.pag1-info2-img {
+   width: 30%;
+   border-radius: 6px;
+}
+
+@media (max-width: 330px) {
+   .pag1-info2-img {
+      width: 100%;
+      margin: auto;
+   }
+}
+
+.pag1-info2-p {
+   font-size: 1.5rem;
+   width: 70ch;
+   color: #252525;
+   text-align: justify;
+}
+
+@media (max-width: 330px) {
+   .pag1-info2-p {
+      font-size: 1.2rem;
+      width: 100%;
+      text-align: left;
+   }
+}
+
+
+/* terceira div */
+
+.info3 {
+   font-size: 1.5rem;
+   color: #252525;
+}
+
+@media (max-width: 330px) {
+   .info3 {
+      font-size: 1.2rem;
+   }
+}

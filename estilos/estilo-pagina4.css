@@ -1,0 +1,83 @@
+.pag4-conteudo-principal {
+   display: flex;
+   flex-direction: column;
+   max-width: 1366px;
+
+   margin: 0 auto;
+   padding: 50px 20px;
+
+   color: #252525;;
+}
+
+
+.praia h2 {
+   font-size: 2.5rem;
+   position: relative;
+}
+@media(max-width: 330px) {
+   .praia h2 {
+      font-size: 1.7rem;
+   }
+}
+
+.praia h2::before {
+   content: "";
+   display: block;
+   height: 7px;
+   width: 70px;
+   background-color: #d40000;
+   position: absolute;
+   top: 50px;
+}
+@media(max-width: 330px) {
+   .praia h2::before {
+      top: 35px;
+      height: 4px;
+      width: 40px;
+   }
+}
+
+.praia p {
+   font-size: 1.3rem;
+   text-align: justify;
+}
+@media(max-width: 330px) {
+   .praia p {
+      font-size: 1rem;
+   }
+}
+
+.praia {
+   font-size: 1.3rem;
+   width: 80ch;
+   margin: 0 auto;
+   margin-bottom: 50px;
+}
+@media(max-width: 330px) {
+   .praia {
+      width: 100%;
+   }
+}
+
+.praia img {
+   height: 230px;
+}
+@media(max-width: 330px) {
+   .praia img {
+      height: 140px;
+      border: 1px solid #d40000;
+   }
+}
+
+.praia ul {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+}
+@media(max-width: 330px) {
+   .praia ul {
+      flex-direction: column;
+      width: 80%;
+      align-items: center;
+   }
+}
